@@ -5,4 +5,4 @@
 		start-sleep -s 60
 	  }
 	while($offline -ne $count)
-	#Restart-Computer
+	Restart-Computer
