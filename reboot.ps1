@@ -8,7 +8,7 @@
 	 
 	# Else return WARNING status
 	else {
-	Restart-Computer
+	Restart-Computer -Force
 	$returnCode=1
 	}
 	 

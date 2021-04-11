@@ -13,5 +13,5 @@
 		$offline = ((get-vm).State -like "Off" | measure).count
 	  }
 	while($offline -ne $count)
-	Restart-Computer
+	Restart-Computer -Force
 	}
